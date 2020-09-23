@@ -10,3 +10,14 @@ h5,
 h6 {
   font-family: 'Fjalla One', sans-serif;
 }
+
+h1 {
+  font-size: 40px;
+  /* altura entre lineas, em relativo en funcion del elemento */
+  line-height: 1.5em;
+  /* styles negrilla pesos etc */
+  font-weight: normal;
+  letter-spacing: -0.2px;
+  /* text-transform: uppercase;
+  text-decoration: dotted; */
+}

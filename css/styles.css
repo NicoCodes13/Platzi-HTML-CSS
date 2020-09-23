@@ -21,3 +21,15 @@ h1 {
   /* text-transform: uppercase;
   text-decoration: dotted; */
 }
+
+.hero {
+  height: 300px;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-imageWrapper {
+  width: 500px;
+}

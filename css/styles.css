@@ -1,5 +1,14 @@
+/* Displays:
+  none: no muestra
+  block: por defecto de la mayoria de los elementos, ocupa todo el ancho posible
+  inline: deja de funcionar como contenedor, permite poner las cosas en una unica linea porque 
+    ocupa solo el ancho del contenido
+  inline-block: respeta el ancho
+  flex: de padres a hijos  */
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
 }
 
 h1,
@@ -37,14 +46,21 @@ h1 strong {
   background-color: #1b2127;
 }
 
+.portfolio {
+  background: #fafafa;
+}
+
 .project {
   /* border-top: 10px solid red; */
   /* border-color: blue;
   border-width: 15px;
   border-style: solid; */
   border: 1px solid gray;
+  margin: 10px;
   border-radius: 10px;
   margin-bottom: 15px;
+  padding: 20px;
+  background: white;
 }
 
 .project-details {

@@ -46,6 +46,17 @@ h1 strong {
   background-color: #1b2127;
 }
 
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
 .portfolio {
   background: #fafafa;
 }
@@ -74,9 +85,29 @@ h1 strong {
 .header {
   background-color: #1b252c;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
 }
 
 .header a {
   color: white;
   text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }

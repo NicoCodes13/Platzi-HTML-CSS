@@ -30,11 +30,21 @@ h1 {
   /* text-transform: uppercase;
   text-decoration: dotted; */
   color: white;
-  margin: 100px 150px 70px 30px;
+  /* margin: 100px 150px 70px 30px; */
+  margin: 0;
 }
 
 h1 strong {
   color: #026fff;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .hero {
@@ -44,6 +54,8 @@ h1 strong {
   background-repeat: no-repeat;
   background-position-x: right;
   background-color: #1b2127;
+  display: flex;
+  align-items: center;
 }
 
 ol,
@@ -59,6 +71,7 @@ figure {
 
 .portfolio {
   background: #fafafa;
+  padding: 20px;
 }
 
 .project {
@@ -67,11 +80,30 @@ figure {
   border-width: 15px;
   border-style: solid; */
   border: 1px solid gray;
-  margin: 10px;
+  /* margin: 10px; */
   border-radius: 10px;
   margin-bottom: 15px;
   padding: 20px;
   background: white;
+  display: flex;
+}
+
+.project-course {
+  margin: 10px 0px;
+}
+
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+
+.project-description {
+}
+
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .project-details {
@@ -87,7 +119,8 @@ figure {
   color: white;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  height: 70px;
+  align-items: center;
 }
 
 .menu {
@@ -110,4 +143,21 @@ figure {
   display: flex;
   align-items: center;
   padding: 0 10px;
+}
+
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
